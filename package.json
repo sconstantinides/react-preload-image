@@ -1,7 +1,7 @@
 {
   "name": "react-preload-image",
-  "version": "1.0.0",
-  "description": "react-preload-image React component",
+  "version": "1.0.4",
+  "description": "Preload and fade in an image. Optional support for lazy loading.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -13,10 +13,7 @@
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
-    "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "start": "nwb serve-react-demo"
   },
   "dependencies": {},
   "peerDependencies": {
@@ -27,11 +24,15 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Stelios Constantinides <sconstantinides@gmail.com>",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/sconstantinides/react-preload-image",
   "keywords": [
-    "react-component"
+    "react",
+    "preload",
+    "load",
+    "image",
+    "lazy",
+    "loading"
   ]
 }
