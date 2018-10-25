@@ -43,7 +43,7 @@ class PreloadImage extends React.Component {
 
   componentWillUnmount() {
     if (this.observer) this.observer.disconnect();
-    this.preloader.onload = null;
+    if (this.preloader) this.preloader.onload = null;
   }
 
   render() {
@@ -69,6 +69,7 @@ class PreloadImage extends React.Component {
           transition: `opacity ${this.props.duration || '300ms'} ${this.props.ease || 'cubic-bezier(0.215, 0.61, 0.355, 1)'}`,
           opacity: this.state.loaded ? 1 : 0
         }}></div>
+        {this.props.children}
       </div>
     );
   }
