@@ -43,7 +43,7 @@ class PreloadImage extends React.Component {
 
   componentWillUnmount() {
     if (this.observer) this.observer.disconnect();
-    this.preloader.onload = null;
+    if (this.preloader) this.preloader.onload = null;
   }
 
   render() {
