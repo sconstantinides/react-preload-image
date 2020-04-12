@@ -28,6 +28,7 @@ These can be applied using a class or inline (examples of each method below).
 | lazy | Boolean | No | | Enables lazy loading |
 | duration | String | No | `300ms` | Duration of the fade-in transition |
 | ease | String | No | `cubic-bezier(0.215, 0.61, 0.355, 1)` | Ease of the fade-in transition |
+| innerStyle | Object | No | | Specify the CSS values for `backgroundSize`, `backgroundPosition`, and `backgroundRepeat` |
 
 ## Examples
 
