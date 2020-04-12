@@ -2,7 +2,7 @@
 
 Preload and fade in an image from a background color or placeholder image.
 
-Optional support for lazy loading so images load when scrolled into view. Uses the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) and falls back to simply preloading when there isn't browser support (cough, Safari, cough).
+Optional support for lazy loading so images load when scrolled into view. Uses the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) and falls back to simply preloading when there isn't browser support (cough, IE, cough).
 
 [View the demo on CodePen](https://codepen.io/stothelios/full/gzoZLZ/)
 
