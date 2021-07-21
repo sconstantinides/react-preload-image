@@ -1,6 +1,6 @@
 {
   "name": "react-preload-image",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Preload and fade in an image. Optional support for lazy loading.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,7 +17,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "16.x"
+    "react": "17.x"
   },
   "devDependencies": {
     "nwb": "0.21.x",
